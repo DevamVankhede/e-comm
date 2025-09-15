@@ -58,7 +58,7 @@ export default function LoginPage() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           className="w-full mb-4 px-3 py-2 rounded bg-gray-800 border border-gray-700 text-white"
-          placeholder="you@example.com"
+          placeholder="admin1@example.com"
           required
         />
         <label htmlFor="password" className="block text-gray-300 text-sm mb-1">
@@ -70,7 +70,7 @@ export default function LoginPage() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           className="w-full mb-6 px-3 py-2 rounded bg-gray-800 border border-gray-700 text-white"
-          placeholder="Minimum 5 characters"
+          placeholder="admin"
           required
         />
         <button
