@@ -1,3 +1,12 @@
+## Environment
+
+Copy `.env.example` to `.env.local` and adjust values:
+
+```
+NEXT_PUBLIC_GRAPHQL_ENDPOINT=https://saleor.kombee.co.in/graphql/
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
